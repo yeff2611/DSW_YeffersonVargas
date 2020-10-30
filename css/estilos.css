@@ -1,0 +1,188 @@
+.titulo{
+    text-align: center;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px;
+    color: #005883;
+
+}
+.body{
+    font-family: 'Franklin Gothic Italic', 'Arial Narrow', Arial, sans-serif;
+    background-color: #b3b3b3;
+}
+.tituloBienvenida{
+    text-align: center;
+    font-size: 170%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #005883;
+}
+.contenidoBienvenida{
+    text-align: justify;
+    font-size: 120%;
+    width: 95%;    
+    padding:10px;
+    
+}
+/*.menu{
+    margin: auto;
+    width: 100%;
+    overflow: auto;
+    background-color: #005883;
+    
+}
+
+.menu a{    
+    float: left;
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    width: 18%;
+    text-align: center;    
+}
+.menu a.active{
+    background-color: #F0B429;
+}
+.menu a:hover{
+    background-color: #F0B429
+}*/
+*{
+    font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.navegacion{
+    width: 100%;
+    margin: 30px auto;
+    background: #005883;
+    text-align: center;
+    margin: 0;
+    padding: 0; 
+    
+}
+
+.navegacion ul{
+    list-style: none; 
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+.menu > li > a{
+    display: block;
+    padding: 12px;
+    color: white;    
+    text-decoration: none;
+    font-size: 20px;
+    width: 150px;    
+}
+
+.menu li a:hover{
+    background-color: #F0B429;
+    transition: all .3s;
+}
+.submenu{
+    position: absolute;
+    background: #005883;
+    width: 175px;
+    display: none;
+}
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+.menu li:hover .submenu{
+    display: block;
+}
+.logo{
+    height: 80px;
+    width: 105px;   
+}
+.tablaObjetivosContenido{
+    width: 90%;
+    margin: 40px;
+    padding: 0;
+    border: 1px solid black;
+    
+}
+li{
+    line-height: 20px;
+    text-decoration: none;    
+}
+
+.dfooter{
+    color: white;
+    background-color: #F47920;    
+    font-size: 17px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    position: fixed;   
+}
+
+.tituloTabla{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 140%;
+    padding: 0;
+}
+#titulocontenido{
+    font-size: 170%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #005883;
+    width: 30%;
+    padding-left: 15px;
+}
+#referencias{
+    font-weight: bold;
+    text-decoration: underline;    
+}
+#contenido{
+    text-align: justify;
+    line-height: 25px;
+}
+.autor{
+    width: 100%;
+    text-align: left;
+    padding: 200px;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+#datospersonales{
+    text-align: center;
+    font-size: 140%;
+    background: #808080;
+    color: white;
+}
+#datoscontacto{
+    text-align: center;
+    font-size: 140%;
+    background: #808080;
+    color: white;
+}
+.autor tr{
+    height: 40px;
+}
+.autor td{
+    font-size: 120%;
+    padding-left: 10px;
+    color: #005883;
+}
+.video1{
+    padding: 15px;
+}
+.tabla{
+    width: 90%;
+    margin-left: 45px;
+}
+.tabla td{
+    padding: 15px;
+    
+}
