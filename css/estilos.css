@@ -20,33 +20,15 @@
     text-align: justify;
     font-size: 120%;
     width: 95%;    
-    padding:10px;
-    
+    padding:10px;    
 }
-/*.menu{
-    margin: auto;
-    width: 100%;
-    overflow: auto;
-    background-color: #005883;
-    
+.mapa iframe{
+    width: 90%;
+    padding-left: 40px; 
 }
 
-.menu a{    
-    float: left;
-    padding: 12px;
-    text-decoration: none;
-    color: white;
-    font-size: 17px;
-    width: 18%;
-    text-align: center;    
-}
-.menu a.active{
-    background-color: #F0B429;
-}
-.menu a:hover{
-    background-color: #F0B429
-}*/
-*{
+
+* {
     font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
     
 }
@@ -115,16 +97,17 @@ li{
     text-decoration: none;    
 }
 
-.dfooter{
+footer {
     color: white;
     background-color: #F47920;    
     font-size: 17px;
     bottom: 0px;
-    left: 0px;
+    /*left: 0px;*/
+    height: 40px;
     width: 100%;
     text-align: center;
-    height: 40px;
-    position: fixed;   
+    
+    
 }
 
 .tituloTabla{
@@ -140,6 +123,20 @@ li{
     width: 30%;
     padding-left: 15px;
 }
+.tituloactividad{
+    font-size: 200%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #005883;
+}
+.actividad iframe{
+    width: 95%;
+    padding-left: 50px;
+    
+}
 #referencias{
     font-weight: bold;
     text-decoration: underline;    
@@ -153,7 +150,8 @@ li{
     text-align: left;
     padding: 200px;
     border-collapse: collapse;
-    margin-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 190px;
 }
 #datospersonales{
     text-align: center;
@@ -185,4 +183,24 @@ li{
 .tabla td{
     padding: 15px;
     
+}
+.siguienteactividad a{
+    text-decoration: none;
+    margin-bottom: 50px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style: dashed;
+    border-color: black;
+}
+.siguienteactividad {
+    padding: 22px;
+    display: block;
+    text-align: center;
+    align-items: center;
+    font-size: 150%;
+    
+}
+.siguienteactividad a:hover{
+    background-color: #F0B429;
+    transition: all .3s;
 }
